@@ -1,0 +1,68 @@
+/*
+Gabriel Batista Nunes
+
+* 1. resposta
+10
+10 5
+
+* 2. resposta
+10 10 10
+
+* 3. resposta
+let horasTrabalho = prompt("Quantas horas você trabalha por dia?")
+let dinheiroDiario = prompt("Quanto você recebe por dia?")
+alert(`Voce recebe ${t/p} por hora`)
+
+*/ 
+
+//exercício prático
+
+/*1
+let nome;
+console.log(typeof nome);
+let idade;
+console.log(typeof idade);
+//foi feito para criar essas váriaveis e se tornarem funcionais para ganhar uma função mais para frente
+nome = prompt("seu nome");
+console.log(typeof nome);
+idade = prompt("sua idade");
+console.log(typeof idade);
+//ele imprime 1 string para cada impressão
+console.log("Olá", nome, "você tem", idade, "anos")
+*/
+/*
+let futebol;
+console.log(typeof futebol);
+let videogame;
+console.log(typeof videogame);
+let dormir;
+console.log(typeof dormir);
+futebol = prompt("você gosta de assistir futebol?");
+console.log(typeof futebol);
+videogame = prompt("você joga videogame?");
+console.log(typeof videogame);
+dormir = prompt("você dorme muito?");
+console.log(typeof dormir);
+console.log("você gosta de assistir futebol?", futebol);
+console.log("você joga videogame?", videogame);
+console.log("você dorme muito?", dormir);
+*/
+
+/*
+let a = 10;
+let b = 25;
+let c = null;
+c = a;
+a = b;
+b = c;
+c = null;
+
+console.log(a,b,c);
+*/
+
+let n1 = Number(prompt("escolha o numero"));
+let n2 = Number(prompt("escolha outro numero"));
+let y = n1 + n2;
+let x = n1 * n2;
+console.log("o valor de y é:", y);
+console.log("o valor de x é:", x);
